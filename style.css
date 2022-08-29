@@ -39,7 +39,7 @@ h2 {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-size: 24px;
-    line-height: 2;
+    line-height: 1.5;
     color: #272142;
 }
 .btn-branding {
@@ -66,8 +66,12 @@ border: 1px solid var(--brading-color);
         padding: 0;
         text-align: center;
     }
+    .hero {
+        padding: 80px 20px;
+    }
     h1 {
-        font-size: 60px;
+        font-size: 44px;
+        line-height: 2;
     }
     h2 {
         font-size: 44px;
