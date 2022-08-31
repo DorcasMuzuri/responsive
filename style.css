@@ -19,6 +19,12 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
+h4 {
+font-size: 34px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
  p {
      font-family: "Poppins", sans-serif;
      font-weight: normal;
@@ -92,6 +98,39 @@ line-height: 80px;
 }
 .logo {
     max-height: 40px;
+}
+footer {
+    margin: 60px 0;
+}
+footer .email-link{
+text-decoration: none;
+color: #272142;
+font-size: 24px;
+text-align: center;
+}
+footer .email-link:hover {
+    color: var(--brading-color)
+}
+footer .social-links a {
+    margin:0 20px ;
+    color: var(--brading-color);
+    background-color: #F9F7FD;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: 150ms;
+}
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--brading-color);
+}
+footer .contact-box {
+    background-color: #F9F7FD;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.contact-box p {
+    font-family: "Poppins", sans-serif;
 }
 
 nav {
