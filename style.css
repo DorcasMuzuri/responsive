@@ -1,5 +1,5 @@
 :root {
-    --brading-color: #6c63ff
+    --brading-color: #1A8472
 
 }
 body {
@@ -12,6 +12,12 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 96px;
     line-height: 1.5;
+}
+h3 {
+font-size: 64px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 h2 {
     font-size: 64px;
@@ -32,7 +38,7 @@ font-size: 34px;
      line-height: 30px;
  }
 .hero {
-    background-color: #F9F7FE;
+    background-color: #C9F2F4;
         text-align: center;
 }
 .hero p {
@@ -97,7 +103,10 @@ line-height: 80px;
     margin: 30px;
 }
 .logo {
-    max-height: 100px;
+    max-height: 200px;
+}
+.button-space {
+    text-align: center;
 }
 footer {
     margin: 60px 0;
@@ -115,7 +124,7 @@ footer .email-link:hover {
 footer .social-links a {
     margin:0 20px ;
     color: var(--brading-color);
-    background-color: #F9F7FD;
+    background-color: #C9F2F4;
     padding: 10px 14px;
     font-size: 18px;
     border-radius: 50%;
@@ -126,7 +135,7 @@ footer .social-links a:hover {
     background-color: var(--brading-color);
 }
 footer .contact-box {
-    background-color: #F9F7FD;
+    background-color: #C9F2F4;
     padding: 30px 120px;
     border-radius: 10px;
 }
@@ -157,7 +166,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-    color: var(--branding-color);
+    color: #272142;
 }
 @media (max-width:900px) {
     .project-description {
