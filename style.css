@@ -78,7 +78,7 @@ border: 1px solid var(--brading-color);
     border-radius: 20px;
 }
 .content-container {
-    padding: 60px 20px;
+    padding:  0px;
 }
 .content h1 {
 font-size: 64px;
@@ -100,7 +100,7 @@ line-height: 80px;
 
 }
 .content {
-    margin: 30px;
+    margin: 0px;
     
 }
 .logo {
